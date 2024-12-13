@@ -35,7 +35,9 @@
 									"pm.test(\"Status code is not 404\", function () {\r",
 									"    pm.response.to.not.have.status(505);\r",
 									"});\r",
-									""
+									"\r",
+									"\r",
+									"// fork"
 								],
 								"type": "text/javascript",
 								"packages": {}
