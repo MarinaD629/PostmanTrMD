@@ -33,7 +33,7 @@
 									"})\r",
 									"\r",
 									"pm.test(\"Status code is not 404\", function () {\r",
-									"    pm.response.to.not.have.status(505);\r",
+									"    pm.response.to.not.have.status(505,404);\r",
 									"});\r",
 									"\r",
 									"\r",
