@@ -95,7 +95,7 @@
 									"    }, function (err, res) {\r",
 									"        pm.test(\"Name Check\", () => { \r",
 									"            console.log(res.json());\r",
-									"    pm.expect(res.json().name).to.not.equal(\"PM\"); \r",
+									"    pm.expect(res.json().name).to.equal(\"test\"); \r",
 									"});\r",
 									"\r",
 									"});\r",
@@ -160,7 +160,7 @@
 								"id": "2feb91e2-9b66-42b4-bfcd-d544d9317a43",
 								"exec": [
 									"pm.test(\"Successful POST request\", function () {\r",
-									"    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202, 203]);\r",
 									"});"
 								],
 								"type": "text/javascript",
@@ -181,7 +181,7 @@
 								{
 									"key": "file",
 									"type": "file",
-									"src": "/C:/Users/marinadydyshko/Desktop/download.jpg"
+									"src": "/C:/Users/marinadydyshko/Desktop/download.png"
 								}
 							]
 						},
