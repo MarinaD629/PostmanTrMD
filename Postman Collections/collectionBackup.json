@@ -204,6 +204,9 @@
 									"\r",
 									"console.log(encodeURIComponent(\"Pet_Collection @\"))\r",
 									"console.log(decodeURIComponent(\"component%20log%20%40\"))\r",
+									"\r",
+									"\r",
+									"//update main \r",
 									""
 								],
 								"type": "text/javascript",
