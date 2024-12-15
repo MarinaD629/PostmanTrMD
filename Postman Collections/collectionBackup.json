@@ -37,7 +37,9 @@
 									"});\r",
 									"\r",
 									"\r",
-									"// fork"
+									"// fork\r",
+									"\r",
+									"//test"
 								],
 								"type": "text/javascript",
 								"packages": {}
@@ -206,7 +208,7 @@
 									"console.log(decodeURIComponent(\"component%20log%20%40\"))\r",
 									"\r",
 									"\r",
-									"//update main \r",
+									"//update form fork\r",
 									""
 								],
 								"type": "text/javascript",
@@ -402,7 +404,9 @@
 								"exec": [
 									"pm.test(\"Response time is less than 200ms\", function () {\r",
 									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
-									"});"
+									"});\r",
+									"\r",
+									"//merge without creating a pull request "
 								],
 								"type": "text/javascript",
 								"packages": {}
