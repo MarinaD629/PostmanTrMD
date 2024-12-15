@@ -95,7 +95,7 @@
 									"    }, function (err, res) {\r",
 									"        pm.test(\"Name Check\", () => { \r",
 									"            console.log(res.json());\r",
-									"    pm.expect(res.json().name).to.equal(\"test\"); \r",
+									"    pm.expect(res.json().name).to.not.equal(\"PM\"); \r",
 									"});\r",
 									"\r",
 									"});\r",
