@@ -68,7 +68,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"id\": 0,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"{{categoryName}}\"\r\n  },\r\n  \"name\": \"My pet\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"cat\"\r\n    }\r\n  ],\r\n  \"status\": \"available\"\r\n}",
+							"raw": "{\r\n  \"id\": 0,\r\n  \"category\": {\r\n    \"id\": 0,\r\n    \"name\": \"{{categoryName}}\"\r\n  },\r\n  \"name\": \"My pet\",\r\n  \"photoUrls\": [\r\n    \"string\"\r\n  ],\r\n  \"tags\": [\r\n    {\r\n      \"id\": 0,\r\n      \"name\": \"cat\"\r\n    }\r\n  ],\r\n  \"status\": \"sold\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
