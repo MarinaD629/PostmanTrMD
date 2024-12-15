@@ -110,6 +110,8 @@
 									"  pm.expect(pm.response.responseTime).to.be.below(1000);\r",
 									"});\r",
 									"\r",
+									"//test\r",
+									"\r",
 									""
 								],
 								"type": "text/javascript",
